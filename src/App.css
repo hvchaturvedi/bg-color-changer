@@ -1,0 +1,37 @@
+/* Makes the background fill the entire screen */
+.full-screen {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.5s ease;
+}
+
+/* Centers the content */
+.content {
+  text-align: center;
+}
+
+/* Styles the button container */
+.button-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Styles the color buttons */
+.color-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.color-button:hover {
+  transform: scale(1.1);
+}
